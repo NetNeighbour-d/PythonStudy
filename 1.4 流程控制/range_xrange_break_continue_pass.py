@@ -13,7 +13,7 @@ print(b)
 for i in c:
     print("value is",i)
 
-#xrange与range用法一直，但生成的不是数组，而是一个生成器
+#xrange与range用法一致，但生成的不是数组，而是一个生成器
 #python3中没有xrange函数
 d=xrange(8)
 print(d)
